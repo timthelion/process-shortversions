@@ -1,0 +1,17 @@
+Name: process-shortversions
+Version: 0.0.0
+Synopsis: Short versions of System.Process commands
+Category:System
+
+License: GPL-3
+License-file:COPYING 
+Author: Timothy Hobbs
+Maintainer: Timothy Hobbs <timothyhobbs@seznam.cz>
+build-type:Simple
+
+cabal-version: >= 1.4
+
+library
+ build-depends:process,base
+ exposed-modules:System.Process.ShortVersions
+ hs-source-dirs: src
